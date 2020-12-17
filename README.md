@@ -27,6 +27,7 @@ Use jupyter-gmaps and the Google Places API to:-
     * A max temperature lower than 80 degrees but higher than 70.
     * Wind speed less than 10 mph.
     * Zero cloudiness.
-    * Drop any rows that don't contain all three conditions. You want to be sure the weather is ideal.
-    
+    * Drop any rows that don't contain all three conditions.
+  * Use Google Places API to find the first hotel for each city located within 5000 meters of the given lat/long coordinates
+  * Plot the hotels on top of the humidity heatmap with each pin containing the Hotel Name, City, and Country
     
